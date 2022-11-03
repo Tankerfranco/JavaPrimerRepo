@@ -19,7 +19,13 @@ public class ejercicioQuince {
         }
         
         for (int i = 0; i < 100; i++) {
+  
             System.out.print("[" + vector[i] + "]");
+        }
+        System.out.println("");
+        
+        for (int i = 99; i > -1; i--) {
+            System.out.println("[" + vector[i] + "]");
         }
         System.out.println("");
     }

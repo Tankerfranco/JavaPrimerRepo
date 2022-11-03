@@ -24,9 +24,12 @@ static Scanner leer = new Scanner(System.in);
         for (int i = 0; i < n; i++) {
             vector[i] = (int)(Math.random()*10);
         }
+        for (int i = 0; i < n; i++) {
+            System.out.println(vector[i]);
+        }
         System.out.println("Escribe un numero");
         num = leer.nextInt();
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {    
             if (num == vector[i]) {
                 System.out.println("el numero " + num + " se encuentra en la posicion " + i + " del vector");
                 con++;
